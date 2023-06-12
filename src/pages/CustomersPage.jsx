@@ -1,6 +1,6 @@
 import { useState, useEffect} from "react";
 import { db } from "../firebase/firebase";
-import { addDoc, collection, doc, getDocs,  updateDoc, deleteDoc } from "firebase/firestore";
+import { addDoc, collection, doc, getDocs,  deleteDoc } from "firebase/firestore";
 import { NavLink } from "react-router-dom";
 
 

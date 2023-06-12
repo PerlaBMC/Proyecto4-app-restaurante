@@ -16,8 +16,8 @@ Tenemos el honor de presentarles productos de la más alta calidad en exclusiva,
   <div className="card">
     <img src="https://sonoragrill.com.mx/images/suc-terranova.jpg" className="card-img-top" alt="..." />
     <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 className="card-title">JUGO DE CARNE / CON TUÉTANO</h5>
+      <p className="card-text">TCON CEBOLLA, CILANTRO Y CHILE VERDE.</p>
     </div>
     <div className="card-footer">
       <small className="text-body-secondary">Last updated 3 mins ago</small>
@@ -26,8 +26,8 @@ Tenemos el honor de presentarles productos de la más alta calidad en exclusiva,
   <div className="card">
     <img src="https://images.otstatic.com/prod1/32360993/3/huge.jpg" className="card-img-top" alt="..." />
     <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 className="card-title">HAMBURGUESA SÁNCHEZ (200 g)</h5>
+      <p className="card-text">PATTIE GRATINADO CON QUESO PROVOLONE, CEBOLLAS AL VENENO Y MAYONESA DE TORTILLA TATEMADA.</p>
     </div>
     <div className="card-footer">
       <small className="text-body-secondary">Last updated 3 mins ago</small>
@@ -36,8 +36,8 @@ Tenemos el honor de presentarles productos de la más alta calidad en exclusiva,
   <div className="card">
     <img src="https://sonoragrill.com.mx/images/suc-miyana.jpg" className="card-img-top" alt="..." />
     <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 className="card-title">CAZUELA DE CAMARONES AL AJILLO </h5>
+      <p className="card-text">TOQUE DE MEZCAL, PAPA CAMBRAY AL JOSPER Y CHILE GUAJILLO.</p>
     </div>
     <div className="card-footer">
       <small className="text-body-secondary">Last updated 3 mins ago</small>
@@ -52,8 +52,8 @@ Tenemos el honor de presentarles productos de la más alta calidad en exclusiva,
     <div className="card">
       <img src="https://carta.menu/storage/media/company_gallery/3114478/conversions/contribution_gallery.jpg" className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">Kane</h5>
+        <p className="card-text">240ml. Mezcal espadín Amaras Joven, jugo de toronja, jugo de naranja, ancho reyes rojo, jugo de limon, ginger agave syrup.</p>
       </div>
     </div>
   </div>
@@ -61,8 +61,8 @@ Tenemos el honor de presentarles productos de la más alta calidad en exclusiva,
     <div className="card">
       <img src="https://www.tastingtable.com/img/gallery/11-cocktails-to-try-if-you-like-drinking-gin/intro-1659025591.jpg" className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">Galaxia</h5>
+        <p className="card-text">240ml. Tanqueray flor de sevilla, crema de coco, agua de coco, limon amarillo, cardamomo, jarabe de canela.</p>
       </div>
     </div>
   </div>
@@ -70,8 +70,8 @@ Tenemos el honor de presentarles productos de la más alta calidad en exclusiva,
     <div className="card">
       <img src="https://i.pinimg.com/originals/8d/94/73/8d947313b23ca0a453e5f41acb8f2398.jpg" className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 className="card-title">Pastel de Red Velvet</h5>
+        <p className="card-text">Biscocho de Red Velvet relleno de cremoso de Limón y compota de frutos rojos, chocolate Carlos V líquido y frutas rojas nitrogenadas.</p>
       </div>
     </div>
   </div>
@@ -79,21 +79,13 @@ Tenemos el honor de presentarles productos de la más alta calidad en exclusiva,
     <div className="card">
       <img src="https://3.bp.blogspot.com/-ccl0Va9euFs/VO8UKQi7I9I/AAAAAAAADOo/l7CPHjHKQD0/w640/Invierno-0.jpg" className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 className="card-title">Pastel de Glorias de Linares</h5>
+        <p className="card-text">Helado de glorias de Linares, con campechanas de hojaldre.</p>
       </div>
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-    </>
+</>
   );
 };
 
