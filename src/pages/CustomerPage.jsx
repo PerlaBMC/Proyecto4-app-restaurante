@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { db } from "../firebase/firebase";
 import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { useParams } from "react-router-dom";
+import { useParams, NavLink } from "react-router-dom";
 
 const formInitialState = {
   name: "",
@@ -30,13 +30,13 @@ const CustomerPage = () => {
     };
   
     const actualizarUsuario = async () => {
-      const coleccion = doc(db, "usuario", idUsuario);
+      const coleccion = doc(db, "usuarios", idUsuario);
       await updateDoc(coleccion, form);
       await obtenerUsuario();
-    };
+      };
   
     const obtenerUsuario= async () => {
-      const resp = await getDoc(doc(db, "usuario", idUsuario));
+      const resp = await getDoc(doc(db, "usuarios", idUsuario));
       setUsuario(resp.data());
       setForm(resp.data());
     };
@@ -139,9 +139,9 @@ const CustomerPage = () => {
                   onChange={handleChange}
                 />
               </div>
-              <button type="submit" className="btn btn-warning">
+              <NavLink type="button" className="btn btn-warning" to = "/customers" onClick={actualizarUsuario}>
                 Actualizar
-              </button>
+              </NavLink>
             </form>
           </article>
         </main>

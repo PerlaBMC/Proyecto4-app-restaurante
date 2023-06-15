@@ -142,7 +142,7 @@ obtenerUsuario ()
                <NavLink
                   type="button"
                   className="btn btn-outline-warning"
-                  to = {`/customer${usuario.id}`} >
+                  to = {`/customer/${usuario.id}`} >
                   Editar
                 </NavLink> 
                
